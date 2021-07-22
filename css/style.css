@@ -46,7 +46,7 @@ li a {
 
 li a:hover{
 
-    color: red;
+    color: green;
     
 }
 /*header style*/
@@ -80,6 +80,47 @@ div .pa {
     
 
 }
+/* raid style*/
+.raid {
+    margin: 2%;
+    padding: 2%;
+    text-align: center;
+}
+.raid h2 {
+    color: #ffc600;
+    margin: 2%;
+    padding: 2%;
+    
+}
+
+.raid a{
+    color: #ffc600;
+    text-align: center;
+    list-style: none;
+    padding: 3%;
+    margin: 3%;
+    font-size: 1.3em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.raid a:hover {
+    color: green;
+}
+/* main roster style*/
+.members {
+    text-align: center;
+    margin: 0%;
+    padding: 0%;
+}
+.members a{ 
+
+    text-decoration: none;
+    color: #ffc600;
+    column-count: 3;
+    
+}
+    
+
 /* footer style*/
 .footer {
     background-image: url(https://wallpaperaccess.com/full/1656029.jpg);
