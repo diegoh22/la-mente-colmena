@@ -3,9 +3,10 @@ body{
     
     margin: 0%;
     padding: 0%;
-    background-image: url(https://bnetcmsus-a.akamaihd.net/cms/content_entry_media/FJPT5455KR5K1589912863345.jpg);
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/498/577/155/world-of-warcraft-wow-horde-dark-hd-wallpaper-thumb.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    
     
 }
 /* navbar style*/
@@ -54,6 +55,28 @@ h1{
     color: #ffc600;
     padding-right: 27%;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    
+
+}
+.home{
+    text-align: center;
+    color: #ffc600;
+    padding: 5%;
+}
+h2{
+    text-align: center;
+    color: #ffc600;
+    margin: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+div .pa { 
+    color: #ffc600;
+    text-align: center;
+    font-family: cursive;
+    font-size: 1.3em;
+    margin:auto;
     
 
 }
