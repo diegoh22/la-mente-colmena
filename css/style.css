@@ -97,8 +97,8 @@ div .pa {
     color: #ffc600;
     text-align: center;
     list-style: none;
-    padding: 3%;
-    margin: 3%;
+    padding: 0%;
+    margin: 5%;
     font-size: 1.3em;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 
@@ -107,19 +107,31 @@ div .pa {
     color: green;
 }
 /* main roster style*/
-.members {
+#members {
     text-align: center;
-    margin: 0%;
-    padding: 0%;
+    
+    
+   
 }
-.members a{ 
 
-    text-decoration: none;
+#members a {
+
     color: #ffc600;
-    column-count: 3;
+    text-decoration: none;
+    font-size: 2em;
+    
+    
     
 }
-    
+
+#members a:hover{
+
+    color: green;
+}
+#members li {
+    column-gap: 50px;
+    display: inline-block;
+}
 
 /* footer style*/
 .footer {
