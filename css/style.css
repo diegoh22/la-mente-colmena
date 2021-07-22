@@ -1,16 +1,14 @@
-h1 {
-    background-color: #4e563e;
-    padding: 10px;
-    text-align: center;
-    color: #ffc600;
-}
-
+/* body style*/
 body{
-    background-color:#ffc600;
+    
     margin: 0%;
     padding: 0%;
+    background-image: url(https://bnetcmsus-a.akamaihd.net/cms/content_entry_media/FJPT5455KR5K1589912863345.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
 }
-
+/* navbar style*/
 nav {
  list-style-type: none;
  margin: 0%;
@@ -20,12 +18,17 @@ nav {
  position: fixed;
  top: 0%;
  width: 100%;
+ background-image: url(https://wallpaperaccess.com/full/1656029.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
 
 }
 
 li {
     list-style: none;
      float: left;
+     margin: 1%;
+    
  
 }
 
@@ -33,7 +36,9 @@ li a {
     text-decoration: none;
     color: #ffc600;
     text-align: center;
-    padding: 10px 12px;
+    padding: 6px 8px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
     
     
 }
@@ -43,10 +48,25 @@ li a:hover{
     color: red;
     
 }
-
-.footer {
-    background-color: #4e563e;
-    padding: 10px;
+/*header style*/
+h1{
     text-align: center;
     color: #ffc600;
+    padding-right: 27%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+
+}
+/* footer style*/
+.footer {
+    background-image: url(https://wallpaperaccess.com/full/1656029.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 2px 2px;
+    text-align: center;
+    color: #ffc600;
+    position:fixed;
+    bottom: 0%;
+    width: 100%;
+    left: 0%;
 }
