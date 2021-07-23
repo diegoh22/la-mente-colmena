@@ -49,7 +49,7 @@ li a:hover{
     color: green;
     
 }
-/*header style*/
+/*header style home content*/
 h1{
     text-align: center;
     color: #ffc600;
@@ -61,7 +61,7 @@ h1{
 .home{
     text-align: center;
     color: #ffc600;
-    padding: 5%;
+    padding: 8%;
 }
 h2{
     text-align: center;
@@ -105,33 +105,40 @@ div .pa {
 }
 .raid a:hover {
     color: green;
+
 }
 /* main roster style*/
-#members {
-    text-align: center;
-    
-    
-   
+
+.row{
+  width:65%;
+  margin: 50px 0 50px; 
 }
 
-#members a {
+.columnleft{
+  float:left;
+  width: 100px;
+  height: 5em;
+  margin-left: 47%;
+}
 
-    color: #ffc600;
-    text-decoration: none;
+.columnright {
+    float: right;
+    width: 100px; 
+    height: 5em;
+    
+}
+.columnleft a{
     font-size: 2em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0%;
+    padding: 0%;
     
-    
-    
+}
+.columnright a{
+    font-size: 2em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-#members a:hover{
-
-    color: green;
-}
-#members li {
-    column-gap: 50px;
-    display: inline-block;
-}
 
 /* footer style*/
 .footer {
