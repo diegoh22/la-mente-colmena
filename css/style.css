@@ -3,7 +3,7 @@ body{
     
     margin: 0%;
     padding: 0%;
-    background-image: url(https://c4.wallpaperflare.com/wallpaper/498/577/155/world-of-warcraft-wow-horde-dark-hd-wallpaper-thumb.jpg);
+    background-image: url(https://cdn.wallpapersafari.com/0/53/hQLySz.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     
@@ -142,9 +142,6 @@ div .pa {
 
 /* footer style*/
 .footer {
-    background-image: url(https://wallpaperaccess.com/full/1656029.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
     padding: 2px 2px;
     text-align: center;
     color: #ffc600;
