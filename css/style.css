@@ -1,4 +1,5 @@
 /* body style*/
+
 body{
     
     margin: 0%;
@@ -6,6 +7,7 @@ body{
     background-image: url(https://cdn.wallpapersafari.com/0/53/hQLySz.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    width: 100%;
     
     
 }
@@ -15,6 +17,7 @@ body{
   background-image: url(https://wallpaperaccess.com/full/1656029.jpg);
  background-repeat: no-repeat;
  background-size: cover;
+ width: 100%;
 }
 
 .navbar a {
@@ -330,3 +333,8 @@ div .pa {
     margin-right: 18%;
     float: right;
 }
+
+
+/*resposive web desktop*/
+
+
