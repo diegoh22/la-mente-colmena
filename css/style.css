@@ -179,7 +179,7 @@ div .pa {
     font-family: cursive;
     margin: 10%;
     padding: 10%;
-    color:red;
+    
     
     
 }
@@ -217,8 +217,11 @@ div .pa {
     border-radius: 25px;
     margin: 4%;
     padding: 4%;
+    color:#27db90;
     
-    
+}
+#monk:hover{
+    color: whitesmoke;
 }
 #dk{
     background-image: url(https://i.pinimg.com/originals/09/b1/d5/09b1d54e3c1eb88dd88e43f27f3de259.jpg);
@@ -227,6 +230,10 @@ div .pa {
     border-radius: 25px;
     margin: 4%;
     padding: 4%;
+    color: red;
+}
+#dk:hover {
+    color:green;
 }
 #paladin {
     background-image: url(https://i.pinimg.com/originals/38/f2/bb/38f2bb6d81c80c949d032c133cd4a147.jpg);
@@ -235,7 +242,11 @@ div .pa {
     border-radius: 25px;
     margin: 4%;
     padding: 4%;
+    color: rgb(221, 76, 216);
     
+}
+#paladin:hover{
+    color: honeydew;
 }
 
 #shaman{
@@ -245,6 +256,10 @@ div .pa {
     border-radius: 25px;
     margin: 4%;
     padding: 4%;
+    color: blue;
+}
+#shaman:hover {
+    color: burlywood;
 }
 #priest {
     background-image: url(https://i.pinimg.com/originals/61/dc/af/61dcaf2fae14cfd3cc73911c78549a85.jpg);
@@ -253,6 +268,10 @@ div .pa {
     border-radius: 25px;
     margin: 4%;
     padding: 4%;
+    color: rgb(208, 234, 238);
+}
+#priest:hover {
+    color: black;
 }
 #hunter {
     background-image: url(https://pbs.twimg.com/media/C-lXQ0bXgAAZ2H8.jpg);
@@ -261,6 +280,10 @@ div .pa {
     border-radius: 25px;
     margin: 4%;
     padding: 4%;
+    color: rgba(12, 136, 68, 0.904);
+}
+#hunter:hover {
+    color: brown;
 }
 
 #mage {
@@ -270,6 +293,10 @@ div .pa {
     border-radius: 25px;
     margin: 4%;
     padding: 4%;
+    color: rgb(88, 226, 236);
+}
+#mage:hover {
+    color: firebrick;
 }
 #dh {
     background-image: url(https://p4.wallpaperbetter.com/wallpaper/620/395/626/blood-elf-demon-demon-hunter-illidari-wallpaper-preview.jpg);
@@ -278,5 +305,9 @@ div .pa {
     border-radius: 25px;
     margin: 4%;
     padding: 4%;
+    color: indigo;
     
+}
+#dh:hover {
+    color: greenyellow;
 }
