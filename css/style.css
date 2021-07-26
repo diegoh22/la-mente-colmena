@@ -148,6 +148,7 @@ div .pa {
   width:70%;
   margin: 50px 0 50px; 
   padding: 0%;
+  margin: 0;
   
 }
 .row a{
@@ -159,7 +160,7 @@ div .pa {
 
 .columnleft{
   float:left;
-  width: 110px;
+  width: 100px;
   height: 4em;
   margin-left: 29%;
  
@@ -174,7 +175,7 @@ div .pa {
 
 .columnright {
     float: right;
-    width: 88px; 
+    width: 100px; 
     height: 4em;
     
     
@@ -193,8 +194,8 @@ div .pa {
     
 }
 .columnright a{
-    font-size: 4em;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3em;
+    font-family: cursive;
     color: #ffc600;
     
     
@@ -276,10 +277,10 @@ div .pa {
     border-radius: 25px;
     margin: 8%;
     padding: 8%;
-    color: rgba(12, 136, 68, 0.904);
+    color: rgba(14, 221, 48, 0.904);
 }
 #hunter:hover {
-    color: brown;
+    color: wheat;
 }
 
 #mage {
