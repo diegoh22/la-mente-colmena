@@ -142,7 +142,7 @@ div .pa {
     color:green;
 
 }
-/* main roster style*/
+/* mainroster style*/
 
 .row{
   width:70%;
@@ -153,9 +153,7 @@ div .pa {
 }
 .row a{
 
-    text-decoration: none;
-    
-    
+    text-decoration: none;   
 }
 
 .columnleft{
@@ -205,7 +203,7 @@ div .pa {
     color: green;
 }
   
-/*background for main roster images*/
+/*background for mainroster images*/
 
 #monk {
     background-image: url(https://i.pinimg.com/originals/7f/b2/08/7fb208751cf460578d130e74d657d8f1.jpg);
@@ -307,4 +305,28 @@ div .pa {
 }
 #dh:hover {
     color: greenyellow;
+}
+/*media videos style*/
+  
+
+.fourlast {
+   position: relative;
+    top: 20px;
+  
+}
+
+.twolast{
+    position: relative;
+    top: 100px;
+}
+
+.fourlast iframe{
+   margin-left: 20%;
+   float: left;
+   
+}
+
+.twolast iframe{
+    margin-right: 18%;
+    float: right;
 }
