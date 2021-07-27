@@ -3,12 +3,13 @@
 body{
 margin: 0%;
 padding: 0%;
-background-image: url(https://i.pinimg.com/originals/cc/45/be/cc45bea2b17bb2319b4e0dc2050138c3.jpg);
+background-image: url(https://wallpaperaccess.com/full/1656029.jpg);
 background-repeat: no-repeat;
 background-size: cover;
 background-position: center;
 overflow: auto;
 background-attachment: fixed;
+width: 100%;
 }
 /* navbar style*/
 
@@ -140,73 +141,55 @@ div .pa {
 /* mainroster style*/
 
 .row{
-  width:70%;
-  margin: 50px 0 50px; 
-  padding: 0%;
-  margin: 0;
-  
+    position: relative;
 }
-.row a{
-
-    text-decoration: none;   
+.row a { 
+    text-decoration: none;
 }
 
 .columnleft{
-  float:left;
-  width: 100px;
-  height: 4em;
-  margin-left: 29%;
- 
- 
+  float: left;
+
 }
-.columnleft li {
-    list-style: none;
-    margin: 8%;
-    padding: 8%;
+.columnleft ul{
+    padding-left: 40px;
 }
 
+.columnleft li {
+    padding: 5%;
+    margin: 5%;
+    list-style: none;
+}
 
 .columnright {
-    float: right;
-    width: 100px; 
-    height: 4em;
-    
-    
+    float: right; 
+}
+
+.columnright ul {
+    padding-right: 40px;
 }
 .columnright li{
+    padding: 5%;
+    margin: 5%;
     list-style: none;
-    margin: 8%;
-    padding: 8%;
 }
 .columnleft a{
-    font-size: 3em;
-    font-family: cursive;
-    
-    
-    
-    
+    font-size: 3vw; 
 }
-.columnright a{
-    font-size: 3em;
-    font-family: cursive;
-    color: #ffc600;
-    
-    
+.columnright a{ 
+    font-size: 3vw;
 }
 .row a:hover{
-
     color: green;
 }
   
-/*background for mainroster images*/
+/*background image for mainroster */
 
 #monk {
     background-image: url(https://i.pinimg.com/originals/7f/b2/08/7fb208751cf460578d130e74d657d8f1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    border-radius: 25px;
-    margin: 8%;
-    padding: 8%;
+    box-shadow: #e2e5e4;
     color:#27db90;
     
 }
@@ -219,9 +202,7 @@ div .pa {
     background-repeat: no-repeat;
     background-position: center;
     overflow: auto;
-    border-radius: 25px;
-    margin: 8%;
-    padding: 8%;
+    
     color: red;
 }
 #dk:hover {
@@ -230,10 +211,7 @@ div .pa {
 #paladin {
     background-image: url(https://i.pinimg.com/originals/38/f2/bb/38f2bb6d81c80c949d032c133cd4a147.jpg);
     background-size: cover;
-    background-repeat: no-repeat;
-    border-radius: 25px;
-    margin: 8%;
-    padding: 8%;
+    
     color: rgb(221, 76, 216);
     
 }
@@ -245,9 +223,7 @@ div .pa {
     background-image: url(https://i.pinimg.com/originals/7e/56/f8/7e56f8576ea8c0ee841928faf0b56b3f.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    border-radius: 25px;
-    margin: 8%;
-    padding: 8%;
+    
     color: blue;
 }
 #shaman:hover {
@@ -257,9 +233,7 @@ div .pa {
     background-image: url(https://i.pinimg.com/originals/61/dc/af/61dcaf2fae14cfd3cc73911c78549a85.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    border-radius: 25px;
-    margin: 8%;
-    padding: 8%;
+    
     color: rgb(112, 212, 228);
 }
 #priest:hover {
@@ -269,9 +243,6 @@ div .pa {
     background-image: url(https://pbs.twimg.com/media/C-lXQ0bXgAAZ2H8.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    border-radius: 25px;
-    margin: 8%;
-    padding: 8%;
     color: rgba(14, 221, 48, 0.904);
 }
 #hunter:hover {
@@ -282,9 +253,6 @@ div .pa {
     background-image: url(https://overgear.com/guides/wp-content/uploads/guides-32.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    border-radius: 25px;
-    margin: 8%;
-    padding: 8%;
     color: rgb(88, 226, 236);
 }
 #mage:hover {
@@ -294,33 +262,26 @@ div .pa {
     background-image: url(https://p4.wallpaperbetter.com/wallpaper/620/395/626/blood-elf-demon-demon-hunter-illidari-wallpaper-preview.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    border-radius: 25px;
-    margin: 8%;
-    padding: 8%;
-    color: indigo;
-    
+    color: indigo; 
 }
 #dh:hover {
     color: greenyellow;
 }
 /*media videos style*/
+
+
+.media {
+    position: center;
+    margin: 0;
+    padding: 0%;
+}
+
   
 
 .fourlast {
-    top: 20px;
-  
+  float: left;
 }
 
 .twolast{ 
-    top: 100px;
-}
-
-.fourlast iframe{
-margin-left: 20%;
-  
-}
-
-.twolast iframe{
-    margin-left: 20%;
-    
+float: right;
 }
