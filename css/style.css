@@ -1,24 +1,16 @@
 /* body style*/
 
 body{
-    
-    margin: 0%;
-    padding: 0%;
-    background-image: url(https://cdn.wallpapersafari.com/0/53/hQLySz.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    
-    
+margin: 0%;
+padding: 0%;
+background-image: url(https://i.pinimg.com/originals/cc/45/be/cc45bea2b17bb2319b4e0dc2050138c3.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+overflow: auto;
+background-attachment: fixed;
 }
 /* navbar style*/
-.navbar {
-  overflow: hidden;
-  background-image: url(https://wallpaperaccess.com/full/1656029.jpg);
- background-repeat: no-repeat;
- background-size: cover;
- width: 100%;
-}
 
 .navbar a {
   float: left;
@@ -76,12 +68,12 @@ body{
 }
 
 /*header style home content*/
+
 h1{
     text-align: center;
     color: #ffc600;
     padding-right: 17%;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    
 
 }
 .home{
@@ -211,7 +203,7 @@ div .pa {
 #monk {
     background-image: url(https://i.pinimg.com/originals/7f/b2/08/7fb208751cf460578d130e74d657d8f1.jpg);
     background-size: cover;
-    background-repeat: inherit;
+    background-repeat: no-repeat;
     border-radius: 25px;
     margin: 8%;
     padding: 8%;
@@ -225,6 +217,8 @@ div .pa {
     background-image: url(https://i.pinimg.com/originals/09/b1/d5/09b1d54e3c1eb88dd88e43f27f3de259.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
+    overflow: auto;
     border-radius: 25px;
     margin: 8%;
     padding: 8%;
@@ -313,28 +307,20 @@ div .pa {
   
 
 .fourlast {
-   position: relative;
     top: 20px;
   
 }
 
-.twolast{
-    position: relative;
+.twolast{ 
     top: 100px;
 }
 
 .fourlast iframe{
-   margin-left: 20%;
-   float: left;
-   
+margin-left: 20%;
+  
 }
 
 .twolast iframe{
-    margin-right: 18%;
-    float: right;
+    margin-left: 20%;
+    
 }
-
-
-/*resposive web desktop*/
-
-
