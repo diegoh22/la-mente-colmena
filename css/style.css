@@ -44,6 +44,8 @@ width: 100%;
 
 .dropdown-content {
   display: none;
+  background-color: rgba(0, 0,0, 0.7);
+  border-radius: 4px;
   position: absolute;
   color: #ffc600;
   min-width: 160px;
@@ -75,6 +77,8 @@ h1{
     color: #ffc600;
     padding-right: 17%;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 100%;
+    
 
 }
 .home{
@@ -82,6 +86,7 @@ h1{
     color: #ffc600;
     padding: 2%;
     margin: 2%;
+    width: 100%;
 }
 h2{
     text-align: center;
@@ -89,6 +94,8 @@ h2{
     margin: 2%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 2em;
+    width: 100%;
+   
     
 }
 
@@ -96,8 +103,12 @@ div .pa {
     color: #ffc600;
     text-align: center;
     font-family: cursive;
-    font-size: 1.3em;
-    margin:auto;
+    font-size: 1.4em;
+    margin:0%;
+    padding: 0%;
+    background-color: rgba(0, 0,0, 0.7);
+    border-radius: 3px;
+    width: 100%;
     
 
 }
@@ -140,79 +151,54 @@ div .pa {
 }
 /* mainroster style*/
 
-.row{
-    position: relative;
-}
+
 .row a { 
     text-decoration: none;
 }
 
 .columnleft{
   float: left;
+  padding-left: 20%;
 
-}
-.columnleft ul{
-    padding-left: 40px;
-}
-
-.columnleft li {
-    padding: 5%;
-    margin: 5%;
-    list-style: none;
 }
 
 .columnright {
     float: right; 
+    padding-right: 20%;
 }
 
-.columnright ul {
-    padding-right: 40px;
-}
-.columnright li{
-    padding: 5%;
-    margin: 5%;
-    list-style: none;
-}
 .columnleft a{
-    font-size: 3vw; 
+    font-size: 2vw; 
 }
 .columnright a{ 
-    font-size: 3vw;
+    font-size: 2vw;
 }
 .row a:hover{
     color: green;
 }
   
-/*background image for mainroster */
+/*styke for mainroster */
 
 #monk {
-    background-image: url(https://i.pinimg.com/originals/7f/b2/08/7fb208751cf460578d130e74d657d8f1.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    box-shadow: #e2e5e4;
+
     color:#27db90;
-    
+    padding: 0.5%;   
 }
+
 #monk:hover{
     color: whitesmoke;
 }
-#dk{
-    background-image: url(https://i.pinimg.com/originals/09/b1/d5/09b1d54e3c1eb88dd88e43f27f3de259.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    overflow: auto;
-    
+#dk{ 
     color: red;
+    padding: 0.5%;
 }
 #dk:hover {
     color:green;
 }
 #paladin {
-    background-image: url(https://i.pinimg.com/originals/38/f2/bb/38f2bb6d81c80c949d032c133cd4a147.jpg);
-    background-size: cover;
-    
+
     color: rgb(221, 76, 216);
+    padding: 0.5%;
     
 }
 #paladin:hover{
@@ -220,52 +206,101 @@ div .pa {
 }
 
 #shaman{
-    background-image: url(https://i.pinimg.com/originals/7e/56/f8/7e56f8576ea8c0ee841928faf0b56b3f.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    
     color: blue;
+    padding: 0.5%;
 }
 #shaman:hover {
     color: burlywood;
 }
 #priest {
-    background-image: url(https://i.pinimg.com/originals/61/dc/af/61dcaf2fae14cfd3cc73911c78549a85.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    
     color: rgb(112, 212, 228);
+    padding: 0.5%;
 }
 #priest:hover {
-    color: black;
+    color: rgb(243, 237, 237);
 }
 #hunter {
-    background-image: url(https://pbs.twimg.com/media/C-lXQ0bXgAAZ2H8.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
     color: rgba(14, 221, 48, 0.904);
+    padding: 0.5%;
 }
 #hunter:hover {
     color: wheat;
 }
 
 #mage {
-    background-image: url(https://overgear.com/guides/wp-content/uploads/guides-32.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: rgb(88, 226, 236);
+    color: #09dbf7;
+    padding: 0.5%;
 }
 #mage:hover {
     color: firebrick;
 }
 #dh {
-    background-image: url(https://p4.wallpaperbetter.com/wallpaper/620/395/626/blood-elf-demon-demon-hunter-illidari-wallpaper-preview.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: indigo; 
+    color:#6c40d4;
+    padding: 0.5%;
 }
 #dh:hover {
     color: greenyellow;
 }
+
+img{
+    height: 100px;
+    width: 100px;
+    border-radius: 25px;
+    display: block;
+    max-width: 100%; 
+}
+.font {
+    position: relative;
+    display: inline-block;
+    
+}
 /*media videos style*/
 
+.media {
+
+    column-count: 2;
+    display: block;
+    margin: 2%;
+    width: 100%;
+    
+}
+
+.onevideo a{
+    margin: 2%;
+    
+}
+
+.secondvideo {
+    margin-left: 40%;
+}
+.secondvideo a{
+    margin: 2%;
+    
+}
+.footer{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.507);
+}
+.social{
+    margin-top: 20px;
+    font-size: 50px;
+    color: #ffc600;
+    text-align: center;
+    width: 100%;
+}
+.copyright {
+    color: #ffc600;
+    text-align: center;
+    margin-bottom: auto;
+    
+}
+
+@media only screen and (max-width: 768px){
+
+
+}
+
+@media only screen and (max-width: 1000px){
+
+
+}
