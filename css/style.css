@@ -269,19 +269,3 @@ div .pa {
 }
 /*media videos style*/
 
-
-.media {
-    position: center;
-    margin: 0;
-    padding: 0%;
-}
-
-  
-
-.fourlast {
-  float: left;
-}
-
-.twolast{ 
-float: right;
-}
