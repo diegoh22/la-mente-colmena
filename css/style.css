@@ -1,15 +1,17 @@
 /* body style*/
 
 body{
-    padding: 0%;
-    margin: 0%;
+padding: 0%;
+margin: 0%;
 background-image: url(https://wallpaperaccess.com/full/1656029.jpg);
 background-repeat: no-repeat;
 background-size: cover;
 background-position: center;
 background-attachment: fixed;
 width: 100%;
+
 }
+
 /* navbar style*/
 
 .navbar a {
@@ -19,7 +21,7 @@ width: 100%;
   text-align: center;
   padding: 18px 20px;
   text-decoration: none;
-}
+  }
 
 .dropdown {
   float: left;
@@ -262,7 +264,7 @@ img{
 .onevideo{
 
     position: relative;
-    margin-left: 5%;
+    margin-left: 10%;
 }
 
 .onevideo a{
@@ -275,7 +277,7 @@ img{
     width: 100%;
 }
 .secondvideo{
-    margin-left: 5%;
+    margin-left: 10%;
 }
 
 .secondvideo a{
@@ -288,6 +290,22 @@ img{
     width: 100%;
 }
 
+
+.form-label {
+    color: #9a37cc;
+    text-align: center
+    
+}
+.btn{
+    margin: 0%;
+}
+.form-text{
+    color: #55e455;
+}
+.form-check-label{
+    color: rgb(161, 65, 206);
+}
+/*footer style*/
 .footer{
     background-color: rgba(0, 0, 0, 0.507);
     
@@ -307,15 +325,117 @@ img{
     
 }
 
-
-@media only screen and (max-width: 768px){
-   
     
-     
+    .raid{
+    
+        width: 100%;
+    }
+    .raid h2{
+        width: 96.66%;
+    }
+    .raid h4{
+        width: 100%;
+    }
+        
+        
+@media only screen and (min-width: 768px){
 
+    body{
+        width: 90%;
+        padding-left: 40px;
+    }
+    .navbar{
+        font-size: 25px; 
+    }
+    .home{
+
+        font-size: 3rem;
+        margin: 1%;
+        padding: 1%;
+    }
+
+
+    h1{
+        font-size: 30px;
+        width: 85%;
+        display: inline-block;
+        padding-left: 99px;
+    }
+    .onevideo{
+        width: 75%;
+        padding-left: 145px;
+        margin-left: 0%;
+        
+    }
+
+    .onevideo a {
+        width: 75%;
+
+    }
+    .secondvideo {
+        width: 75%;
+        padding-left: 145px;
+        margin-left: 0%;
+    }
+    .secondvideo a {
+        width: 75%;
+    }
+
+    h2{
+       width: 95%;
+       
+    }
+    .footer{
+        padding-bottom: 2%;
+        margin-bottom: 0%;
+    }
 }
+@media only screen and (min-width: 600px) {
 
-@media only screen and (max-width: 1000px){
+     body{
+        width: 90%;
+        padding-left: 40px;
+    }
+    .navbar{
+        font-size: 25px; 
+    }
+    .home{
+
+        font-size: 3rem;
+        margin: 1%;
+        padding: 1%;
+    }
 
 
+    h1{
+        font-size: 30px;
+        width: %;
+        
+        padding-left: 99px;
+    }
+    .onevideo{
+        width: 75%;
+        padding-left: 145px;
+        margin-left: 0%;
+        
+    }
+
+    .onevideo a {
+        width: 75%;
+
+    }
+    .secondvideo {
+        width: 75%;
+        padding-left: 145px;
+        margin-left: 0%;
+    }
+    .secondvideo a {
+        width: 75%;
+    }
+
+    h2{
+       width: 95%;
+       
+    }
 }
+    
