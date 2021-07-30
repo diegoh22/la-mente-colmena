@@ -8,7 +8,7 @@ background-repeat: no-repeat;
 background-size: cover;
 background-position: center;
 background-attachment: fixed;
-width: 100%;
+
 
 }
 
@@ -49,7 +49,6 @@ width: 100%;
   border-radius: 4px;
   position: absolute;
   color: #ffc600;
-  min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
@@ -76,26 +75,24 @@ width: 100%;
 h1{
     text-align: center;
     color: #ffc600;
-    padding-right: 17%;
+    padding-right: 0%;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    width: 100%;
+    
     
 
 }
 .home{
     text-align: center;
     color: #ffc600;
-    padding: 2%;
-    margin: 2%;
-    width: 100%;
+    
+    
 }
 h2{
     text-align: center;
     color: #ffc600;
-    margin: 2%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 2em;
-    width: 100%;
+    
    
     
 }
@@ -264,7 +261,7 @@ img{
 .onevideo{
 
     position: relative;
-    margin-left: 10%;
+    margin-left: 6%;
 }
 
 .onevideo a{
@@ -277,7 +274,7 @@ img{
     width: 100%;
 }
 .secondvideo{
-    margin-left: 10%;
+    margin-left: 6%;
 }
 
 .secondvideo a{
@@ -290,21 +287,35 @@ img{
     width: 100%;
 }
 
+.background{
+    background-color: rgba(0, 0, 0, 0.911);
+    margin-top: 5%;
+    padding-top: 5%;
+}
 
 .form-label {
-    color: #9a37cc;
-    text-align: center
-    
+    color: #ffc600;
+    text-align: center;
+    padding-left: 100px;
+
 }
 .btn{
-    margin: 0%;
+    margin: 2%;
+    margin-left: 170px;
 }
 .form-text{
-    color: #55e455;
+    color:#ffc600;
+    padding-left: 100px;
 }
-.form-check-label{
-    color: rgb(161, 65, 206);
+.form-control {
+    margin-left: 2px;
+    display: block;
+    margin-left: 100px;
 }
+.mb-3{
+    background-color: black;
+}
+
 /*footer style*/
 .footer{
     background-color: rgba(0, 0, 0, 0.507);
@@ -350,92 +361,166 @@ img{
     .home{
 
         font-size: 3rem;
-        margin: 1%;
-        padding: 1%;
+        margin: 0%;  
     }
-
 
     h1{
         font-size: 30px;
-        width: 85%;
+        width: 70%;
         display: inline-block;
         padding-left: 99px;
     }
+
+    .columnleft span{
+        font-size: 2rem;
+    }
+    .columnright span{
+        font-size: 2rem;
+    }
     .onevideo{
-        width: 75%;
-        padding-left: 145px;
+        width: 95%;
+        padding-left: 65px;
         margin-left: 0%;
         
     }
 
     .onevideo a {
-        width: 75%;
+        width: 35%;
+        margin: 2%;
 
     }
     .secondvideo {
-        width: 75%;
-        padding-left: 145px;
+        width: 95%;
+        padding-left: 65px;
         margin-left: 0%;
     }
     .secondvideo a {
-        width: 75%;
+        width: 35%;
+        margin: 2%;
     }
 
     h2{
        width: 95%;
        
     }
+
+    .form-control{
+        margin-left: 247px;
+    }
+    .form-label{
+        padding-left: 247px;
+    }
+    .btn {
+        margin-left: 307px;
+    }
+    .form-text{
+        padding-left: 247px;
+    }
+    
     .footer{
         padding-bottom: 2%;
         margin-bottom: 0%;
     }
 }
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 1000px){
 
-     body{
-        width: 90%;
-        padding-left: 40px;
-    }
+    
     .navbar{
         font-size: 25px; 
     }
     .home{
 
         font-size: 3rem;
-        margin: 1%;
-        padding: 1%;
+        margin: 0%; 
+        padding-left: 97px; 
     }
+    div .pa{
+        font-size: 1.2rem;
 
+    }
 
     h1{
         font-size: 30px;
-        width: %;
+        width: 84%;
+        display: inline-block;
         
-        padding-left: 99px;
+    }
+    .main{
+        column-count: 2;
+        margin-left: 265px;
+
+    }
+    .columnright{
+        width: 100%;
+        padding: 5%;
+    }
+    .columnleft{
+        width: 100%;
+        
+    }
+
+    .columnleft a{
+        display: block;
+        width: 28%;
+    }
+
+    .columnright a{
+        display: block;
+        width: 28%;
+    }
+    img{
+        width: 200px;
+        height: 180px;
+    }
+
+    .columnleft span{
+        font-size: 2rem;
+    }
+    .columnright span{
+        font-size: 2rem;
     }
     .onevideo{
-        width: 75%;
-        padding-left: 145px;
-        margin-left: 0%;
+        width: 88%;
+        padding-left: 200px;
+        
         
     }
 
     .onevideo a {
-        width: 75%;
+        width: 35%;
+        margin: 2%;
 
     }
     .secondvideo {
-        width: 75%;
-        padding-left: 145px;
-        margin-left: 0%;
+        width: 88%;
+        padding-left: 200px;
+        
     }
     .secondvideo a {
-        width: 75%;
+        width: 35%;
+        margin: 2%;
     }
 
     h2{
-       width: 95%;
+       width: 100%;
        
     }
-}
+
+    .form-control{
+        margin-left: 520px;
+    }
+    .form-label{
+        padding-left: 520px;
+    }
+    .btn {
+        margin-left: 577px;
+    }
+    .form-text{
+        padding-left: 520px;
+    }
     
+    .footer{
+        padding-bottom: 2%;
+        margin-bottom: 0%;
+    }
+}
