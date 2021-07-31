@@ -26,3 +26,16 @@ h2 {
     float: left;
     font-size: 280%;
 }
+
+
+/* navigation links*/
+
+.navbar {
+    font-size: 110%;
+    letter-spacing: 4px;
+}
+
+.navbar a {
+    float: right;
+    margin-right: 30px;
+}
