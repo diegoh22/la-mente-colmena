@@ -1,104 +1,96 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-* {
-    margin: 0%;
-    padding: 0%;
-    border: none;
-}
-
-body {
-    font-family: roboto, sans-serif;
-    font-weight: 300;
-    color: #ffb101;
-    background-image: url(../images/wall.jpg);
-}
-
-
-/* heading and logo style*/
-
-h1,
-h2 {
-    font-family: bebas neue, sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    color: #ffb101;
-}
-
-#logo {
-    float: left;
-    font-size: 280%;
-}
-
-
-/* navigation links*/
-
-#menu {
-    font-size: 110%;
-    letter-spacing: 4px;
-}
-
-#menu li {
-    float: right;
-    margin-right: 30px;
-    list-style-type: none;
-}
-
-#menu a {
-    text-decoration: none;
-    color: inherit;
-}
-
-#menu a:hover {
-    color: aqua;
-}
-
-
-/*dropdown menu*/
-
-.dropbtn {
-    color: #ffb101;
-    font-size: 16px;
-    border: none;
-    float: right;
-}
-
-.dropdown {
-    position: relative;
-}
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    z-index: 1;
-    right: 0;
-}
-
-.dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-}
-
-.dropdown-content a:hover {
-    background-color: #ffb101;
-}
-
-.dropdown:hover .dropdown-content {
-    display: block;
-}
-
-.dropdown:hover .dropbtn {
-    color: aqua;
-}
-
-
-/* shadowland image*/
-
-#shadowland {
-    height: 600px;
-    width: 100%;
-    background-image: url("https://i.ytimg.com/vi/eXz40kIs4Jw/maxresdefault.jpg") center center;
-    background-repeat: no-repeat;
-}
+        @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+        * {
+            margin: 0%;
+            padding: 0%;
+            border: none;
+        }
+        
+        body {
+            font-family: roboto, sans-serif;
+            font-weight: 300;
+            color: #ffb101;
+            background-image: url(../images/wall.jpg);
+        }
+        /* heading and logo style*/
+        
+        h1,
+        h2 {
+            font-family: bebas neue, sans-serif;
+            text-transform: uppercase;
+            letter-spacing: 4px;
+            color: #ffb101;
+        }
+        
+        #logo {
+            float: left;
+            font-size: 280%;
+        }
+        /* navigation links*/
+        
+        #menu {
+            font-size: 110%;
+            letter-spacing: 4px;
+        }
+        
+        #menu li {
+            float: right;
+            margin-right: 30px;
+            list-style-type: none;
+        }
+        
+        #menu a {
+            text-decoration: none;
+            color: inherit;
+        }
+        
+        #menu a:hover {
+            color: aqua;
+        }
+        /*dropdown menu*/
+        
+        .dropbtn {
+            color: #ffb101;
+            font-size: 16px;
+            border: none;
+            float: right;
+        }
+        
+        .dropdown {
+            position: relative;
+        }
+        
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+            right: 0;
+        }
+        
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+        
+        .dropdown-content a:hover {
+            background-color: #ffb101;
+        }
+        
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+        
+        .dropdown:hover .dropbtn {
+            color: aqua;
+        }
+        /* shadowland image*/
+        
+        #shadowland {
+            height: 600px;
+            width: 100%;
+            background-image: url("https://i.ytimg.com/vi/eXz40kIs4Jw/maxresdefault.jpg");
+            background-repeat: no-repeat;
+        }
