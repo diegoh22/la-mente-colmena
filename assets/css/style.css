@@ -91,6 +91,6 @@
         #shadowland {
             height: 600px;
             width: 100%;
-            background-image: url("https://i.ytimg.com/vi/eXz40kIs4Jw/maxresdefault.jpg");
+            background-image: url("https://i.ytimg.com/vi/eXz40kIs4Jw/maxresdefault.jpg") center center;
             background-repeat: no-repeat;
         }
