@@ -32,6 +32,11 @@
             letter-spacing: 4px;
         }
         
+        #menu,
+        #logo {
+            line-height: 75px;
+        }
+        
         #menu li {
             float: right;
             margin-right: 30px;
