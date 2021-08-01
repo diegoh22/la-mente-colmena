@@ -162,7 +162,7 @@
             font-family: bebas neue, sans-serif;
         }
         
-        .welcome {
+        h4 {
             color: black;
             font-family: bebas neue, sans-serif;
             font-size: 1.2rem;
@@ -172,6 +172,11 @@
         .footer {
             text-align: center;
             background-color: #ffb101;
+        }
+        
+        .social {
+            size: 1rem;
+            color: black;
         }
         
         .copyright {
