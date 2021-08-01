@@ -188,3 +188,9 @@
             font-family: bebas neue;
             font-size: 1rem;
         }
+        /*videos style*/
+        
+        .videos {
+            display: block;
+            background-image: url();
+        }
