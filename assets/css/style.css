@@ -152,4 +152,21 @@
         
         #youname {
             text-align: center;
+            background-color: rgba(251, 255, 0, 0.733);
+        }
+        
+        .form-label {
+            color: black;
+            font-family: bebas neue, sans-serif;
+        }
+        /* footer style*/
+        
+        .footer {
+            text-align: center;
+            background-color: #ffb101;
+        }
+        
+        .footer a .copyright {
+            color: black;
+            font-family: bebas neue, sans-serif;
         }
