@@ -135,6 +135,10 @@
             text-align: center;
         }
         
+        #about #we-tell {
+            padding: 10px 0 10px;
+        }
+        
         #us {
             margin: 30px;
             font-size: 280%;
