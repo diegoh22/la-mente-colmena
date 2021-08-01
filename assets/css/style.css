@@ -148,3 +148,8 @@
             color: black;
             font-size: 1.5rem;
         }
+        /*sign up with you name */
+        
+        #youname {
+            text-align: center;
+        }
