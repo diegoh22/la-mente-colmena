@@ -98,6 +98,11 @@
             height: 600px;
             width: 100%;
             overflow: hidden;
+            position: relative;
+        }
+        
+        #cover-info #cover-info h2 {
+            color: red;
         }
         
         #shadowland {
@@ -106,4 +111,19 @@
             background-image: url("https://wow.zamimg.com/uploads/blog/images/17630-sylvanas-saurfang-narrative-wrapped-up-no-gameplay-impact-in-shadowlands.jpg");
             background-repeat: no-repeat;
             background-position: center center;
+        }
+        
+        #cover-info {
+            font-size: 130%;
+            font-family: Roboto, sans-serif;
+            text-transform: uppercase;
+            letter-spacing: 4px;
+            width: 300px;
+            height: 200px;
+            padding-top: 40px;
+            padding-left: 10px;
+            background-color: rgba(238, 255, 0, 0.473);
+            bottom: 30px;
+            right: 150px;
+            position: absolute;
         }
