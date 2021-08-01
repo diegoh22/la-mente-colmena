@@ -135,8 +135,9 @@
         }
         
         #pa {
-            width: 50%;
+            width: 100%;
             float: left;
             margin: 0 auto;
             background-color: #ffb101;
+            color: black;
         }
