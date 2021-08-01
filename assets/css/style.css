@@ -136,7 +136,7 @@
         
         #pa {
             width: 100%;
-            float: left;
+            text-align: center;
             margin: 0 auto;
             background-color: #ffb101;
             color: black;
