@@ -9,7 +9,7 @@
             font-family: roboto, sans-serif;
             font-weight: 300;
             color: #ffb101;
-            background-image: url(../images/wall.jpg);
+            background-color: black;
         }
         /* heading and logo style*/
         
@@ -55,7 +55,7 @@
         /*dropdown menu*/
         
         .dropbtn {
-            color: #ffb101;
+            background-color: #ffb101;
             font-size: 16px;
             border: none;
             float: right;
@@ -141,4 +141,5 @@
             margin: 0 auto;
             background-color: #ffb101;
             color: black;
+            font-size: 2rem;
         }
